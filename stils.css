@@ -7,34 +7,52 @@
     left: 0;
 }
 
-#mainLogo{
+.mainLogo{
     margin:25px;
     vertical-align: middle;
     display: table-cell;
 }
 
-#mainTitle{
+.mainTitle{
     color: white;
     display: table-cell;
     text-align: left;
     vertical-align: middle;
 }
 
-#navjoslasLogoDiv{
+.navjoslasLogoDiv{
     display:table;
     float: left;
     margin-left:10%;
 }
 
-#navjoslasPogasDiv{
+.navjoslasPogasDiv{
     width: 100%;
     height: 50px;
     float: left;
 }
 
-.navjoslasPoga{
-    float: left;
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #131721;
+    display:table;
+  }
+  
+  li {
+    display: table-cell;
+  }
+  
+  li a {
     display: block;
     color: white;
-    margin: 15px;
-}
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #363f52;
+  }
