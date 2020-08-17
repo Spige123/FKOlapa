@@ -1,5 +1,10 @@
 .navjosla{
     width:100%;
-    height: 100px;
+    height: auto;
     background-color: #131721;
+    margin:0px;
+}
+
+#mainLogo{
+    margin:25px;
 }
