@@ -1,10 +1,13 @@
 .navjosla{
     width:100%;
-    height: auto;
+    height: 220px;
     background-color: #131721;
-    position: fixed;
-    top: 0;
-    left: 0;
+    background-clip: content-box;
+}
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .mainLogo{
@@ -17,6 +20,7 @@
     color: white;
     display: table-cell;
     text-align: left;
+    font-size: 30px;
     vertical-align: middle;
 }
 
