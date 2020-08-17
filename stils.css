@@ -2,9 +2,26 @@
     width:100%;
     height: auto;
     background-color: #131721;
-    margin:0px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #mainLogo{
     margin:25px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#mainTitle{
+    color: white;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#navjoslasLogoDiv{
+    display:table;
+    float: left;
+    margin-left:10%;
 }
