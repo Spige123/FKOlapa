@@ -1,5 +1,3 @@
-Šeit tiek glabātas bildes un visi pārējie resursi
-
 Kas notiek mājaslapā?
 
 Sākumlapa:
@@ -28,5 +26,12 @@ Par mums:
 Tad jāpievieno visu logo.
 
 Kontakti:
-
+ "Vispārējie kontakti:
+ fizikasko@gmail.com
+ 
+ Jānis Pudāns
+ janis111200@inbox.lv
+ 
+ Ričards Knipšis
+ ricrads1@gmail.com"
 
