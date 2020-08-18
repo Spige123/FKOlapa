@@ -25,6 +25,10 @@ Par mums:
 "Liels paldies visem lieliskajiem sponsoriem, kas mūs atbalstīja!"
 Tad jāpievieno visu logo.
 
+Komiteja:
+"Akadēmiskā komiteja sastāv no 7 līdz 9 cilvēkiem. Olimpiādi aizsāka 6 cilvēki, kas redzami zemāk."
+The Academic Committee consists of 7 to 9 permanent members. The organizing country can nominate an additional member. The founding members of the Academic Committee are listed below. The detailed rules regarding nomination and election of the members of the Academic Committee will be discussed with the team leaders during the Olympiad.
+
 Kontakti:
  "Vispārējie kontakti:
  fizikasko@gmail.com
