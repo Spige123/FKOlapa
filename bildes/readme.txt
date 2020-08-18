@@ -32,6 +32,9 @@ Kontakti:
  Jānis Pudāns
  janis111200@inbox.lv
  
- Ričards Knipšis
- ricrads1@gmail.com"
+ Ričards Kristers Knipšis
+ ricrads1@gmail.com
+ 
+ Rolands Lapatko
+ rolands.lopatko@gmail.com"
 
