@@ -66,25 +66,35 @@ li a:hover {
     display: grid;
   }
   .navjoslasPogasDiv{
-    height: 300px;
+    height: 250px;
+  }
+  .mainLogo{
+    margin-left: 0px;
   }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 300px){
   .mainTitle{
-    visibility: collapse;
+    font-size: 10vw;
+  }
+  .mainLogo{
+    margin-left: 0px;
+    margin-right: 5px;
+    width: 40vw;
   }
 }
 
 .saturs{
-  display: table-cell;
+  float: left;
+  max-width: 1000px;
   padding: 20px;
   padding-top:5px;
   width: 70%;
 }
 
 .sanuJosla {
-  display: table-cell;
+  float: left;
+  max-width: 500px;
   padding: 20px;
   padding-top:5px;
 }
@@ -102,4 +112,9 @@ li a:hover {
     width: auto;
     display: block;
   }
+}
+
+.lapa{
+  max-width: 1500px;
+  margin: auto;
 }
