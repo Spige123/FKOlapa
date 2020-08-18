@@ -75,3 +75,31 @@ li a:hover {
     visibility: collapse;
   }
 }
+
+.saturs{
+  display: table-cell;
+  padding: 20px;
+  padding-top:5px;
+  width: 70%;
+}
+
+.sanuJosla {
+  display: table-cell;
+  padding: 20px;
+  padding-top:5px;
+}
+
+.kontaktiTitle{
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+  .saturs{
+    width: auto;
+    display: block;
+  }
+  .sanuJosla{
+    width: auto;
+    display: block;
+  }
+}
