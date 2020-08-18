@@ -56,32 +56,15 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
+.seja{
+  width: 15%;
+  margin:5px;
+}
+
   
 li a:hover {
   background-color: #363f52;
-}
-
-@media only screen and (max-width: 600px){
-  ul{
-    display: grid;
-  }
-  .navjoslasPogasDiv{
-    height: 250px;
-  }
-  .mainLogo{
-    margin-left: 0px;
-  }
-}
-
-@media only screen and (max-width: 300px){
-  .mainTitle{
-    font-size: 10vw;
-  }
-  .mainLogo{
-    margin-left: 0px;
-    margin-right: 5px;
-    width: 40vw;
-  }
 }
 
 .saturs{
@@ -103,6 +86,26 @@ li a:hover {
   font-size: 20px;
 }
 
+
+.lapa{
+  max-width: 1500px;
+  margin: auto;
+}
+
+.mailLink{
+  color:black;
+}
+
+.sejasDiv{
+  width: 100%;
+}
+
+@media only screen and (max-width: 1200px){
+  .seja{
+    width: 31%;
+  }
+}
+
 @media only screen and (max-width: 900px){
   .saturs{
     width: auto;
@@ -114,11 +117,34 @@ li a:hover {
   }
 }
 
-.lapa{
-  max-width: 1500px;
-  margin: auto;
+@media only screen and (max-width: 600px){
+  ul{
+    display: grid;
+  }
+  .navjoslasPogasDiv{
+    height: 250px;
+  }
+  .mainLogo{
+    margin-left: 0px;
+  }
+  .seja{
+    width: 47%;
+  }
 }
 
-.mailLink{
-  color:black;
+@media only screen and (max-width: 450px){
+  .seja{
+    width: 99%;
+  }
+}
+
+@media only screen and (max-width: 300px){
+  .mainTitle{
+    font-size: 10vw;
+  }
+  .mainLogo{
+    margin-left: 0px;
+    margin-right: 5px;
+    width: 40vw;
+  }
 }
