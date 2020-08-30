@@ -150,9 +150,14 @@ li a:hover {
 }
 
 .dokSaite{
+  text-decoration-line: none;
+  color: black;
+}
+
+.dokDiv{
+  display: inline-block;
   padding: 8px;
   margin: 2px;
   background-color: lightgrey;
-  text-decoration-line: none;
-  color: black;
+  width: fit-content;
 }
