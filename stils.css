@@ -196,11 +196,11 @@ h2 {
       background-color: #131721;
       color: rgb(255, 255, 255);
   }
-  .navjosla{
+  .navjosla, .navjoslasPogasTeksts{
       background-color: #2b2d31;
       /* color: #131721; */
   }
-  .mainTitle{
+  .mainTitle, .mailLink{
       color: rgb(255, 255, 255);
   }
 }
