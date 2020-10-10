@@ -176,7 +176,7 @@ h2 {
   width: fit-content;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
       background-color: #131721;
       color: rgb(255, 255, 255);
@@ -188,4 +188,17 @@ h2 {
   .mainTitle{
       color: black;
   }
+} */
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: #2b2d31;
+      color: rgb(255, 255, 255);
+  }
+  /* .navjosla{
+      background-color: #ffffff;
+      color: #131721;
+  }
+  .mainTitle{
+      color: black;
+  } */
 }
