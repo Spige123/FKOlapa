@@ -4,14 +4,18 @@
 <title>FKO</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="stils.css">
-<link rel="icon" type="image/svg" href="bildes/trueborn_logo.svg">
+<link rel="icon" type="image/svg" href="bildes/logoBalts.svg">
 </head>
 <body>
 
 <div class="navjosla">
     <a href="/FKOlapa/main.html">
         <div class="navjoslasLogoDiv">
-            <img src="bildes/logoBalts.svg" class="mainLogo"/>
+            <picture>
+                <source  media="(prefers-color-scheme: dark)" srcset="bildes/logoMelns.svg">
+                <source class="mainLogo" media="(prefers-color-scheme: light)" srcset="bildes/logoBalts.svg">
+                <img class="mainLogo" src="bildes/logoBalts.svg" alt="logo">
+            </picture>
             <p class="mainTitle">Fizikas Komandu Olimpiāde</p>
         </div>
     </a>
