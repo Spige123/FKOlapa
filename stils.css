@@ -189,20 +189,7 @@ h2 {
       color: black;
   }
 } */
-@media (prefers-color-scheme: dark) {
-  body {
-      /* background-color: #2b2d31; */
-      background-color: #363f52;
-      color: rgb(255, 255, 255);
-  }
-  /* .navjosla{
-      background-color: #ffffff;
-      color: #131721;
-  }
-  .mainTitle{
-      color: black;
-  } */
-}
+
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -214,6 +201,6 @@ h2 {
       color: #131721;
   }
   .mainTitle{
-      color: black;
+      color: rgb(255, 255, 255);
   }
 }
