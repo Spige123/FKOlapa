@@ -193,12 +193,12 @@ h2 {
 
 @media (prefers-color-scheme: dark) {
   body {
-      background-color: #2b2d31;
+      background-color: #131721;
       color: rgb(255, 255, 255);
   }
   .navjosla{
-      background-color: #ffffff;
-      color: #131721;
+      background-color: #2b2d31;
+      /* color: #131721; */
   }
   .mainTitle{
       color: rgb(255, 255, 255);
