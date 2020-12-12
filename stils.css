@@ -10,6 +10,10 @@ body {
   
 }
 
+a{
+  color: rgb(0,0,0);
+}
+
 a, p, h1, h2, h3, li {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -180,5 +184,8 @@ h2 {
   }
   .mainTitle, .mailLink{
       color: rgb(255, 255, 255);
+  }
+  a{
+    color:rgb(255,255,255);
   }
 }
