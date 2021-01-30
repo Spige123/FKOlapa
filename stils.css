@@ -104,6 +104,32 @@ h2 {
   width: 100%;
 }
 
+#regLink{
+  display:none;
+}
+
+#sponsorBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sponsorItem{
+  width: 100px;
+  flex: 3 3 auto;
+  margin: 20px;
+}
+
+.sponsorLight{
+  display: none;
+}
+
+.tetSponsor{
+  flex: 1 1 auto;
+}
+
 @media only screen and (max-width: 1200px){
   .seja{
     width: 31%;
@@ -118,6 +144,15 @@ h2 {
   .sanuJosla{
     width: auto;
     display: block;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  iframe{
+    display: none;
+  }
+  #regLink{
+    display: inline;
   }
 }
 
@@ -187,5 +222,11 @@ h2 {
   }
   a{
     color:rgb(255,255,255);
+  }
+  .sponsorLight{
+    display: block;
+  }
+  .sponsorDark{
+    display: none;
   }
 }
