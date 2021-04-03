@@ -130,6 +130,10 @@ h2 {
   flex: 1 1 auto;
 }
 
+.arhivsTitle{
+  margin-top: 30px;
+}
+
 @media only screen and (max-width: 1200px){
   .seja{
     width: 31%;
