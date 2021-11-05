@@ -12,6 +12,7 @@
   background-color: #132119;
   display: grid;
   grid-template-columns: 3fr 4fr;
+  padding-left: 1vw;
 }
 
 body {    
@@ -39,7 +40,8 @@ h2 {
 #logo{
   display: block;
   position: relative;
-  width: 10vh;
+  height: 90%;
+  justify-self: center;
 }
 
 .mainTitle{
