@@ -2,7 +2,10 @@
   font-family: "JekoL";
   src: url(./citi_faili/fonts/Jeko\ Light.ttf);
 }
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@font-face {
+  font-family: "Zen";
+  src: url('./citi_faili/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
 .navjosla{
   width:100vw;
   height: 205px;
@@ -14,15 +17,15 @@
 body {    
   margin: 0 !important;
   padding: 0 !important;
-  font-family: "JekoL";
+  font-family: 'Zen';
+}
+
+a, p, h1, h2, h3, li {
+  font-family: 'Zen';
 }
 
 a{
   color: rgb(0,0,0);
-}
-
-a, p, h1, h2, h3, li {
-  font-family: "Lora";
 }
 
 h1 {
@@ -33,17 +36,10 @@ h2 {
   font-size: 20px;
 }
 
-.mainLogo{
-  margin:25px;
-  margin-top:10px;
-  vertical-align: middle;
-  display: table-cell;
-}
-
 #logo{
   display: block;
   position: relative;
-  width: 8vh;
+  width: 10vh;
 }
 
 .mainTitle{
@@ -51,7 +47,7 @@ h2 {
   position: relative;
   font-size: 30px;
   margin-left: 5%;
-  vertical-align: middle;
+  margin-top: 10%;
   width: 100%;
   font-family: 'JekoL', Times, serif;
 }
@@ -75,6 +71,8 @@ h2 {
   background-color: #132119;
   text-align: center;
   padding: 14px 16px;
+  font-family: "JekoL";
+  font-size: 25px;
   text-decoration: none;
   float: left;
   transition: ease-in-out 0.2s;
@@ -95,7 +93,7 @@ h2 {
   padding: 20px;
   padding-top:5px;
   width: 70%;
-  font-family: 'JekoL';
+  font-size: 18px;
 }
 
 .sanuJosla {
