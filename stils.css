@@ -254,8 +254,11 @@ h2 {
       background-color: #0a1f19;
       /* color: #131721; */
   }
-  .mainTitle, .mailLink{
+  .mainTitle {
       color: white;
+  }
+  .mailLink{
+    color: black;
   }
   a{
     color:black;
@@ -273,10 +276,10 @@ h2 {
       background-color: #008866;
       /* color: #131721; */
   }
-  .mainTitle, .mailLink{
+  .mainTitle{
       color: rgb(255, 255, 255);
   }
-  a{
+  a, .mailLink{
     color:rgb(255, 140, 119);
   }
   .sponsorLight{
