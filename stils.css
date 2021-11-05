@@ -2,6 +2,7 @@
   font-family: "JekoL";
   src: url(./citi_faili/fonts/Jeko\ Light.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 .navjosla{
   width:100vw;
   height: 205px;
@@ -21,7 +22,7 @@ a{
 }
 
 a, p, h1, h2, h3, li {
-  font-family: "JekoL";
+  font-family: "Lora";
 }
 
 h1 {
