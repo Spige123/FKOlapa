@@ -1,13 +1,19 @@
+@font-face {
+  font-family: "JekoL";
+  src: url(./citi_faili/fonts/Jeko\ Light.ttf);
+}
 .navjosla{
-  width:100%;
+  width:100vw;
   height: 205px;
-  background-color: #131721;
+  background-color: #132119;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
 }
 
 body {    
   margin: 0 !important;
   padding: 0 !important;
-  
+  font-family: "JekoL";
 }
 
 a{
@@ -15,7 +21,7 @@ a{
 }
 
 a, p, h1, h2, h3, li {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "JekoL";
 }
 
 h1 {
@@ -33,33 +39,44 @@ h2 {
   display: table-cell;
 }
 
+#logo{
+  display: block;
+  position: relative;
+  width: 8vh;
+}
+
 .mainTitle{
   color: white;
-  display: table-cell;
-  text-align: left;
+  position: relative;
   font-size: 30px;
+  margin-left: 5%;
   vertical-align: middle;
-  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  font-family: 'JekoL', Times, serif;
 }
 
 .navjoslasLogoDiv{
-  display:table;
-  float: left;
-  margin-left:10%;
+  float: right;
+  margin-right: 20%;
+  display: grid;
+  margin-top: 4vh;
+  grid-template-columns: 1fr 3fr;
 }
 
 .navjoslasPogasDiv{
-  width: 100%;
   float: left;
+  margin-top: 10vh;
   text-align: center;
 }
   
 .navjoslasPogasTeksts {
   color: white;
-  background-color: #131721;
+  background-color: #132119;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: left;
+  transition: ease-in-out 0.2s;
 }
 
 .seja{
@@ -68,7 +85,7 @@ h2 {
 }
   
 .navjoslasPogasTeksts:hover {
-  background-color: #363f52;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .saturs{
@@ -77,6 +94,7 @@ h2 {
   padding: 20px;
   padding-top:5px;
   width: 70%;
+  font-family: 'JekoL';
 }
 
 .sanuJosla {
@@ -166,9 +184,23 @@ h2 {
   }
   .navjoslasPogasDiv{
     height: 50px;
+    margin-top: 10%;
+  }
+  .navjoslasLogoDiv{
+    margin-right: 0%;
+  }
+  .navjosla{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .mainTitle{
+    margin-left: 10%;
   }
   .mainLogo{
-    margin-left: 0px;
+    margin-left: 5px;
+  }
+  #logo{
+    margin-left: 15px;
   }
   .seja{
     width: 45%;
@@ -212,20 +244,40 @@ h2 {
   width: fit-content;
 }
 
+
+@media (prefers-color-scheme: light) {
+  body {
+      background-color: white;
+      color: black;
+  }
+  .navjosla, .navjoslasPogasTeksts{
+      background-color: #0a1f19;
+      /* color: #131721; */
+  }
+  .mainTitle, .mailLink{
+      color: white;
+  }
+  a{
+    color:black;
+  }
+  .sponsorLight{
+    display: block;
+  }
+}
 @media (prefers-color-scheme: dark) {
   body {
-      background-color: #131721;
+      background-color: #0a1f19;
       color: rgb(255, 255, 255);
   }
   .navjosla, .navjoslasPogasTeksts{
-      background-color: #2b2d31;
+      background-color: #008866;
       /* color: #131721; */
   }
   .mainTitle, .mailLink{
       color: rgb(255, 255, 255);
   }
   a{
-    color:rgb(255,255,255);
+    color:rgb(255, 140, 119);
   }
   .sponsorLight{
     display: block;
