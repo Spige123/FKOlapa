@@ -206,15 +206,15 @@ h2 {
   .seja{
     width: 45%;
   }
+
+  .navjosla {
+    height:350px;
+  }
 }
 
 @media only screen and (max-width: 450px){
   .navjoslasPogasTeksts {
     display: block;
-  }
-
-  .navjosla {
-    height:350px;
   }
 }
 
