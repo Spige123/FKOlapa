@@ -1,24 +1,32 @@
 /* Tīmekļa lapas izskats */
+@font-face {
+  font-family: "JekoL";
+  src: url('./citi_faili/fonts/Jeko\ Light.ttf');
+}
+@font-face {
+  font-family: "Zen";
+  src: url('./citi_faili/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
 :root{
-    --font: Arial, Helvetica, sans-serif;
-    --logoTekstsKrasa: #FFFFFF;
-    --logoTekstsFont: 'Times New Roman', Times, serif;
-    --navjoslaTekstsKrasa: #FFFFFF;
-    --navjoslaPogaHover: #363f52;
+    --font: 'Zen';
+    --logoTekstsKrasa: white;
+    --logoTekstsFont: 'JekoL', Times, serif;
+    --navjoslaTekstsKrasa: white;
+    --navjoslaPogaHover: rgba(255, 255, 255, 0.1);
     --dokSaiteKrasa: lightgrey;
-    --dokSaiteTekstsKrasa: #000000;
+    --dokSaiteTekstsKrasa: black;
 
-    --akcentsTekstsKrasa: #000000;
-    --fonaKrasa: #ffffff;
-    --tekstsKrasa: #000000;
-    --navjoslaKrasa: #131721;
+    --akcentsTekstsKrasa: rgb(173, 43, 20);
+    --fonaKrasa: white;
+    --tekstsKrasa: black;
+    --navjoslaKrasa: #0a1f19;
 }
 @media (prefers-color-scheme: dark){
     :root{
-        --fonaKrasa: #131721;
-        --tekstsKrasa: #ffffff;
-        --navjoslaKrasa: #2b2d31;
-        --akcentsTekstsKrasa: #ffffff;
+        --fonaKrasa: #0a1f19;
+        --tekstsKrasa: white;
+        --navjoslaKrasa: #008866;
+        --akcentsTekstsKrasa: rgb(255, 140, 119);
     }
 }
 
@@ -87,6 +95,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     background-color: var(--navjoslaKrasa);
+    transition: ease-in-out 0.2s;
 }
 .navjoslasPoga:hover{
     background-color: var(--navjoslaPogaHover);
