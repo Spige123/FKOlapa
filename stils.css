@@ -1,236 +1,174 @@
-.navjosla{
-  width:100%;
-  height: 205px;
-  background-color: #131721;
-}
+/* Tīmekļa lapas izskats */
+:root{
+    --font: Arial, Helvetica, sans-serif;
+    --logoTekstsKrasa: #FFFFFF;
+    --logoTekstsFont: 'Times New Roman', Times, serif;
+    --navjoslaTekstsKrasa: #FFFFFF;
+    --navjoslaPogaHover: #363f52;
+    --dokSaiteKrasa: lightgrey;
+    --dokSaiteTekstsKrasa: #000000;
 
-body {    
-  margin: 0 !important;
-  padding: 0 !important;
-  
+    --akcentsTekstsKrasa: #000000;
+    --fonaKrasa: #ffffff;
+    --tekstsKrasa: #000000;
+    --navjoslaKrasa: #131721;
 }
-
-a{
-  color: rgb(0,0,0);
-}
-
-a, p, h1, h2, h3, li {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 25px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-.mainLogo{
-  margin:25px;
-  margin-top:10px;
-  vertical-align: middle;
-  display: table-cell;
-}
-
-.mainTitle{
-  color: white;
-  display: table-cell;
-  text-align: left;
-  font-size: 30px;
-  vertical-align: middle;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.navjoslasLogoDiv{
-  display:table;
-  float: left;
-  margin-left:10%;
-}
-
-.navjoslasPogasDiv{
-  width: 100%;
-  float: left;
-  text-align: center;
-}
-  
-.navjoslasPogasTeksts {
-  color: white;
-  background-color: #131721;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.seja{
-  width: 15%;
-  margin:5px;
-}
-  
-.navjoslasPogasTeksts:hover {
-  background-color: #363f52;
-}
-
-.saturs{
-  float: left;
-  max-width: 1000px;
-  padding: 20px;
-  padding-top:5px;
-  width: 70%;
-}
-
-.sanuJosla {
-  float: left;
-  max-width: 500px;
-  padding: 20px;
-  padding-top:5px;
-}
-
-.kontaktiTitle{
-  font-size: 20px;
+@media (prefers-color-scheme: dark){
+    :root{
+        --fonaKrasa: #131721;
+        --tekstsKrasa: #ffffff;
+        --navjoslaKrasa: #2b2d31;
+        --akcentsTekstsKrasa: #ffffff;
+    }
 }
 
 
-.lapa{
-  max-width: 1500px;
-  margin: auto;
+/* Teksti */
+a, .mailLink{
+    color: var(--akcentsTekstsKrasa);
+}
+a, p, h1, h2, h3, li{
+    font-family: var(--font);
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 20px;
 }
 
-.mailLink{
-  color:black;
+/* Lapas elementi */
+
+body{
+    background-color: var(--fonaKrasa);
+    color: var(--tekstsKrasa);
+    margin: 0;
+    padding: 0;
 }
 
-.sejasDiv{
-  width: 100%;
+/* Virsraksta josla */
+
+#logoContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:25px;
+    margin-top:25px;
+    text-decoration: none;
+}
+#navjosla{
+    width:100%;
+    min-height:205px;
+    background-color: var(--navjoslaKrasa);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#logo{
+    max-height: 150px;
+}
+#logoTeksts{
+    color: var(--logoTekstsKrasa);
+    margin: 20px;
+    font-size:30px;
+    vertical-align: middle;
+    font-family: var(--logoTekstsFont);
+}
+#navjoslasPogaContainer{
+    margin-right: 50px;
+}
+.navjoslasPoga{
+    display: inline-block;
+    color: var(--navjoslaTekstsKrasa);
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: var(--navjoslaKrasa);
+}
+.navjoslasPoga:hover{
+    background-color: var(--navjoslaPogaHover);
 }
 
-#regLink{
-  display:none;
+/* Pamatlapa */
+
+#lapa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin:auto;
 }
+#saturs{
+    flex-basis: 65%;
+    flex-grow:1;
+    max-width: 1000px;
+    padding:20px;
+    padding-top:5px;
+}
+#sanuJosla{
+    flex-basis: 25%;
+    flex-grow:1;
+    max-width: 500px;
+    padding:20px;
+    padding-top:5px;
+}
+
+/* Sponsori */
 
 #sponsorBox{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
-
 .sponsorItem{
-  width: 100px;
-  flex: 3 3 auto;
-  margin: 20px;
+    max-width: 170px;
+    max-height: 100px;
 }
 
-.sponsorLight{
-  display: none;
-}
-
-.tetSponsor{
-  flex: 1 1 auto;
-}
-
-.arhivsTitle{
-  margin-top: 30px;
-}
-
-@media only screen and (max-width: 1200px){
-  .seja{
-    width: 31%;
-  }
-}
-
-@media only screen and (max-width: 900px){
-  .saturs{
-    width: auto;
-    display: block;
-  }
-  .sanuJosla{
-    width: auto;
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 650px){
-  iframe{
-    display: none;
-  }
-  #regLink{
-    display: inline;
-  }
-}
-
-@media only screen and (max-width: 600px){
-  ul{
-    display: grid;
-  }
-  .navjoslasPogasDiv{
-    height: 50px;
-  }
-  .mainLogo{
-    margin-left: 0px;
-  }
-  .seja{
-    width: 45%;
-  }
-}
-
-@media only screen and (max-width: 450px){
-  .navjoslasPogasTeksts {
-    display: block;
-  }
-
-  .navjosla {
-    height:350px;
-  }
-}
-
-@media only screen and (max-width: 300px){
-  .seja{
-    width: 97%;
-  }
-  .mainTitle{
-    font-size: 9vw;
-  }
-  .mainLogo{
-    margin-left: 0px;
-    margin-right: 5px;
-    width: 35vw;
-  }
-}
+/* Dokumentu saites */
 
 .dokSaite{
-  text-decoration-line: none;
-  color: black;
+    display: inline-block;
+    text-decoration-line: none;
+    color: var(--dokSaiteTekstsKrasa);
+    padding: 8px;
+    margin: 2px;
+    background-color: var(--dokSaiteKrasa);
+}
+.dokContainer{
+    display: flex;
+    flex-direction: row;
 }
 
-.dokDiv{
-  display: inline-block;
-  padding: 8px;
-  margin: 2px;
-  background-color: lightgrey;
-  width: fit-content;
+
+/* Pielāgošana dažādiem platumiem */
+
+@media only screen and (max-width: 450px){
+    .navjoslasPoga{
+        width: 100%;
+        text-align: center;
+    }
+    #logoContainer{
+        flex-wrap: wrap;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-      background-color: #131721;
-      color: rgb(255, 255, 255);
-  }
-  .navjosla, .navjoslasPogasTeksts{
-      background-color: #2b2d31;
-      /* color: #131721; */
-  }
-  .mainTitle, .mailLink{
-      color: rgb(255, 255, 255);
-  }
-  a{
-    color:rgb(255,255,255);
-  }
-  .sponsorLight{
-    display: block;
-  }
-  .sponsorDark{
+
+/* TET tumšais/gaišais logo */
+.sponsorLight{
     display: none;
-  }
+}
+@media (prefers-color-scheme: dark){
+    .sponsorLight{
+        display: block;
+      }
+      .sponsorDark{
+        display: none;
+      }
 }
