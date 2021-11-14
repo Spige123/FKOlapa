@@ -6,31 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Fizikas komandu olimpiādē katru gadu 5 cilvēku komandas no dažādām skolām sacenšas savā starpā, risinot sarežģītus un izaicinošus uzdevumus fizikā.">
         <link rel="stylesheet" href="stils.css">
-        <link rel="icon" type="image/svg" href="bildes/logoBalts.svg">
+        <link rel="icon" type="image/svg" href="bildes/logo.svg">
     </head>
     <body>
-    
-        <header class="navjosla">
-            <a href="/index.html">
-                <div class="navjoslasLogoDiv">
-                    <picture>
-                        <source  media="(prefers-color-scheme: dark)" srcset="bildes/logoBalts.svg">
-                        <source class="mainLogo" media="(prefers-color-scheme: light)" srcset="bildes/logoBalts.svg">
-                        <img class="mainLogo" src="bildes/logoBalts.svg" alt="logo">
-                    </picture>
-                    <p class="mainTitle">Fizikas Komandu Olimpiāde</p>
-                </div>
+        <header id="navjosla">
+            <a id="logoContainer" href="/index.html">
+                <img id="logo" src="bildes/logo.svg" alt="logo">
+                <p id="logoTeksts">Fizikas Komandu Olimpiāde</p>
             </a>
-            <div class="navjoslasPogasDiv">
-                <a class="navjoslasPogasTeksts" href="/index.html">Sākums</a>
-                <a class="navjoslasPogasTeksts" href="/pieteiksanas.html">Pieteikšanās</a>
-                <a class="navjoslasPogasTeksts" href="/arhivs.html">Arhīvs</a>
-                <a class="navjoslasPogasTeksts" href="/par_mums.html">Par mums</a>
+            <div id="navjoslasPogaContainer">
+                <a class="navjoslasPoga" href="/index.html">Sākums</a>
+                <a class="navjoslasPoga" href="/pieteiksanas.html">Pieteikšanās</a>
+                <a class="navjoslasPoga" href="/arhivs.html">Arhīvs</a>
+                <a class="navjoslasPoga" href="/par_mums.html">Par mums</a>
             </div>
         </header>
     
-        <div class="lapa">
-            <section class="saturs">
+        <div id="lapa">
+            <section id="saturs">
                 <h1>Par mums</h1>
                 <p>Latvijas skolēnam ir vairākas iespējas pārbaudīt savas fizikas zināšanas individuāli, piemēram, Valsts Fizikas olimpiādē vai Atklātajā fizikas olimpiādē. Olimpiādes mērķis ir popularizēt fiziku skolēnu vidū, attīstīt prasmes strādāt komandā, kā arī sagatavot skolēnus valsts un starptautiska līmeņa olimpiādēm fizikā, iepazīstinot ar idejām, tehnikām un uzdevumiem, kas var parādīties šādās olimpiādēs.</p>
                 <p>Olimipādi organizē skolēnu un absolventu komanda no Rīgas Valsts 1. ģimnāzijas. 2020./2021. gadā to sastāda Rolands Lopatko, Jānis Pudāns, Kims Georgs Pavlovs, Ilmārs Štolcers, Vilhelms Cinis, Daniels Gorovojs, Olivers Prānis, Ričards Kristers Knipšis, Oskars Mednis, Gustavs Švalbe un citi.</p>
@@ -46,8 +39,8 @@
                 </div>
             </section>
         
-            <aside class="sanuJosla">
-                <p class="kontaktiTitle">Kontakti</p>
+            <aside id="sanuJosla">
+                <h2>Kontakti</h2>
                 <p class="kontakti"> Fizikas Komandu Olimpiāde
                     <br><a class="mailLink" href="mailto:fizikasko@gmail.com">fizikasko@gmail.com</a>
                     <br><br>Jānis Pudāns
