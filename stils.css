@@ -1,21 +1,23 @@
 /* Tīmekļa lapas izskats */
 @font-face {
-  font-family: "JekoL";
-  src: url('./citi_faili/fonts/Jeko\ Light.ttf');
+    font-family: "JekoL";
+    src: url('./citi_faili/fonts/Jeko\ Light.ttf');
 }
 @font-face {
-  font-family: "Zen";
-  src: url('./citi_faili/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+    font-family: "Zen";
+    src: url('./citi_faili/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
 }
 :root{
+    /* Abos motīvos */
     --font: 'Zen';
     --logoTekstsKrasa: white;
-    --logoTekstsFont: 'JekoL', Times, serif;
+    --navjoslaFont: 'JekoL', Times, serif;
     --navjoslaTekstsKrasa: white;
     --navjoslaPogaHover: rgba(255, 255, 255, 0.1);
     --dokSaiteKrasa: lightgrey;
     --dokSaiteTekstsKrasa: black;
 
+    /* Gaišais motīvs */
     --akcentsTekstsKrasa: rgb(173, 43, 20);
     --fonaKrasa: white;
     --tekstsKrasa: black;
@@ -23,12 +25,14 @@
 }
 @media (prefers-color-scheme: dark){
     :root{
+      /* Tumšais motīvs */
         --fonaKrasa: #0a1f19;
         --tekstsKrasa: white;
         --navjoslaKrasa: #008866;
         --akcentsTekstsKrasa: rgb(255, 140, 119);
     }
 }
+
 
 
 /* Teksti */
@@ -44,6 +48,9 @@ h1{
 h2{
     font-size: 20px;
 }
+
+
+
 
 /* Lapas elementi */
 
@@ -61,9 +68,9 @@ body{
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
-    flex-grow: 1;
-    margin-left:10%;
-    margin-right:10%;
+    flex: 1 1 auto;
+    margin-left:5%;
+    margin-right:5%;
     margin-bottom:25px;
     margin-top:25px;
     text-decoration: none;
@@ -84,18 +91,21 @@ body{
     margin: 20px;
     font-size:30px;
     vertical-align: middle;
-    font-family: var(--logoTekstsFont);
+    font-family: var(--navjoslaFont);
 }
 #navjoslasPogaContainer{
+    flex: 2 1 auto;
     margin-right: 50px;
 }
 .navjoslasPoga{
     display: inline-block;
     color: var(--navjoslaTekstsKrasa);
     padding: 14px 16px;
+    font-size:20px;
     text-decoration: none;
     background-color: var(--navjoslaKrasa);
     transition: ease-in-out 0.2s;
+    font-family:var(--navjoslaFont);
 }
 .navjoslasPoga:hover{
     background-color: var(--navjoslaPogaHover);
@@ -156,9 +166,11 @@ body{
 }
 
 
+
+
 /* Pielāgošana dažādiem platumiem */
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 550px){
     .navjoslasPoga{
         width: 100%;
         text-align: center;
