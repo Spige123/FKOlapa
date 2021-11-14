@@ -163,6 +163,7 @@ body{
 .dokContainer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
@@ -179,6 +180,14 @@ body{
         flex-wrap: wrap;
     }
 }
+@media only screen and (max-width: 650px){
+    iframe{
+      display: none;
+    }
+    #regLink{
+      display: inline;
+    }
+  }
 
 
 /* TET tumšais/gaišais logo */
