@@ -14,22 +14,23 @@
     --navjoslaFont: 'JekoL', Times, serif;
     --navjoslaTekstsKrasa: white;
     --navjoslaPogaHover: rgba(255, 255, 255, 0.1);
-    --dokSaiteKrasa: lightgrey;
-    --dokSaiteTekstsKrasa: black;
+    --dokSaiteTekstsKrasa: white;
 
     /* Gaišais motīvs */
     --akcentsTekstsKrasa: rgb(173, 43, 20);
     --fonaKrasa: white;
     --tekstsKrasa: black;
-    --navjoslaKrasa: #0a1f19;
+    --navjoslaKrasa: #008866;
+    --dokSaiteKrasa: #0a1f19;
 }
 @media (prefers-color-scheme: dark){
     :root{
       /* Tumšais motīvs */
         --fonaKrasa: #0a1f19;
         --tekstsKrasa: white;
-        --navjoslaKrasa: #008866;
+        --navjoslaKrasa: #00382a;
         --akcentsTekstsKrasa: rgb(255, 140, 119);
+        --dokSaiteKrasa: rgb(50,50,50);
     }
 }
 
@@ -157,7 +158,9 @@ body{
     text-decoration-line: none;
     color: var(--dokSaiteTekstsKrasa);
     padding: 8px;
-    margin: 2px;
+    margin: 4px;
+    margin-left: 2px;
+    margin-right: 6px;
     background-color: var(--dokSaiteKrasa);
 }
 .dokContainer{
