@@ -111,6 +111,7 @@ body{
     background-color: var(--navjoslaKrasa);
     transition: ease-in-out 0.2s;
     font-family:var(--navjoslaFont);
+    box-sizing: border-box;
 }
 .navjoslasPoga:hover{
     background-color: var(--navjoslaPogaHover);
