@@ -100,7 +100,7 @@ body{
 }
 #navjoslasPogaContainer{
     flex: 2 1 auto;
-    margin-right: 50px;
+    margin-right: 75px;
 }
 .navjoslasPoga{
     display: inline-block;
@@ -181,10 +181,13 @@ body{
 
 /* Pielāgošana dažādiem platumiem */
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 650px){
     .navjoslasPoga{
         width: 100%;
         text-align: center;
+    }
+    #navjoslasPogaContainer{
+        margin-right: 0px;
     }
     #logoContainer{
         flex-wrap: wrap;
@@ -192,15 +195,13 @@ body{
     .dokSaite{
         width: 100%;
     }
-}
-@media only screen and (max-width: 650px){
     iframe{
       display: none;
     }
     #regLink{
       display: inline;
     }
-  }
+}
 
 
 /* TET tumšais/gaišais logo */
