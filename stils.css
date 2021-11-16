@@ -14,7 +14,6 @@
     --navjoslaFont: 'JekoL', Times, serif;
     --navjoslaTekstsKrasa: white;
     --navjoslaPogaHover: rgba(255, 255, 255, 0.1);
-    --dokSaiteTekstsKrasa: white;
 
     /* Gaišais motīvs */
     --akcentsTekstsKrasa: rgb(173, 43, 20);
@@ -22,6 +21,7 @@
     --tekstsKrasa: black;
     --navjoslaKrasa: #008866;
     --dokSaiteKrasa: #0a1f19;
+    --dokSaiteTekstsKrasa: white;
 }
 @media (prefers-color-scheme: dark){
     :root{
@@ -30,7 +30,8 @@
         --tekstsKrasa: white;
         --navjoslaKrasa: #00382a;
         --akcentsTekstsKrasa: rgb(255, 140, 119);
-        --dokSaiteKrasa: rgb(50,50,50);
+        --dokSaiteKrasa: #008866;
+        --dokSaiteTekstsKrasa: black;
     }
 }
 
@@ -48,6 +49,9 @@ h1{
 }
 h2{
     font-size: 20px;
+}
+small{
+    font-size: 10px;
 }
 
 
@@ -157,7 +161,10 @@ body{
     display: inline-block;
     text-decoration-line: none;
     color: var(--dokSaiteTekstsKrasa);
-    padding: 8px;
+    font-size: 20px;
+    padding: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
     margin: 4px;
     margin-left: 2px;
     margin-right: 6px;
@@ -181,6 +188,9 @@ body{
     }
     #logoContainer{
         flex-wrap: wrap;
+    }
+    .dokSaite{
+        width: 100%;
     }
 }
 @media only screen and (max-width: 650px){
