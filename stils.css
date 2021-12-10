@@ -36,6 +36,7 @@
         --dokSaiteTekstsKrasa: black;
         --izceltsFonaKrasa: #00382a;
         --izceltsTekstaKrasa: white;
+        --navjoslaIzceltsKrasa: #008866;
     }
 }
 
@@ -119,6 +120,9 @@ body{
 }
 .navjoslasPoga:hover{
     background-color: var(--navjoslaPogaHover);
+}
+.izceltaNavJoslasPoga{
+    background-color: var(--navjoslaIzceltsKrasa);
 }
 
 /* Pamatlapa */
