@@ -209,6 +209,9 @@ a.dokSaite{
         width: 100%;
         text-align: center;
     }
+    .navjoslasIkona{
+        display: none;
+    }
     #navjoslasPogaContainer{
         margin-right: 0px;
     }
