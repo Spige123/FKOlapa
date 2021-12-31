@@ -157,7 +157,10 @@ body{
     color: var(--izceltsTekstaKrasa);
 }
 .izcelts a{
-    color: var(--akcentsTekstsKrasaIeksIzcelts)
+    color: var(--akcentsTekstsKrasaIeksIzcelts);
+}
+a.dokSaite{
+    color: var(--dokSaiteTekstsKrasa);
 }
 
 /* Sponsori */
