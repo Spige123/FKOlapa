@@ -49,7 +49,7 @@
 a, .mailLink{
     color: var(--akcentsTekstsKrasa);
 }
-a, p, h1, h2, h3, li{
+a, p, h1, h2, h3, li, ol{
     font-family: var(--font);
 }
 h1{
@@ -60,6 +60,16 @@ h2{
 }
 small{
     font-size: 10px;
+}
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
 }
 
 
