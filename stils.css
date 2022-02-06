@@ -173,18 +173,24 @@ a.dokSaite{
     color: var(--dokSaiteTekstsKrasa);
 }
 .imageContainer{
-    width: 100%;
-    max-width: 500px;
-    height: 50vh;
-    max-height: 400px;
+    height: fit-content;
+    width: fit-content;
+    max-width: 100%;
+    box-sizing: border-box;
     position: relative;
 }
 .imageArrow{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    text-align: center;
     position: absolute;
     top: 50%;
     cursor: pointer;
-    font-size: 20px;
-    color: var(--navjoslaTekstsKrasa);
+    font-size: 24px;
+    color: white;
+    text-shadow: 0 0 2px black;
 }
 #mainImageLeft{
     left:10px;
@@ -194,8 +200,9 @@ a.dokSaite{
 }
 .mainImage{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 500px;
+    max-height: 400px;
+    object-fit: contain;
 }
 
 /* Sponsori */
