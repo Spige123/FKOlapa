@@ -26,7 +26,6 @@
     --izceltsTekstaKrasa: white;
     --navjoslaIzceltsKrasa: #0a1f19;
     --akcentsTekstsKrasaIeksIzcelts: rgb(255, 147, 147);
-    --imageSectionBackground: #008866;
 }
 @media (prefers-color-scheme: dark){
     :root{
@@ -41,7 +40,6 @@
         --izceltsTekstaKrasa: white;
         --navjoslaIzceltsKrasa: #008866;
         --akcentsTekstsKrasaIeksIzcelts: rgb(255, 140, 119);
-        --imageSectionBackground: #00382A;
     }
 }
 
@@ -174,9 +172,30 @@ body{
 a.dokSaite{
     color: var(--dokSaiteTekstsKrasa);
 }
-.imageSection{
+.imageContainer{
     width: 100%;
-    background-color: var(--imageSectionBackground);
+    max-width: 500px;
+    height: 50vh;
+    max-height: 400px;
+    position: relative;
+}
+.imageArrow{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--navjoslaTekstsKrasa);
+}
+#mainImageLeft{
+    left:10px;
+}
+#mainImageRight{
+    right:10px;
+}
+.mainImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Sponsori */
