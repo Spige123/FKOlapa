@@ -25,7 +25,8 @@
     --izceltsFonaKrasa: #008866;
     --izceltsTekstaKrasa: white;
     --navjoslaIzceltsKrasa: #0a1f19;
-    --akcentsTekstsKrasaIeksIzcelts: rgb(255, 147, 147);;
+    --akcentsTekstsKrasaIeksIzcelts: rgb(255, 147, 147);
+    --imageSectionBackground: #008866;
 }
 @media (prefers-color-scheme: dark){
     :root{
@@ -40,6 +41,7 @@
         --izceltsTekstaKrasa: white;
         --navjoslaIzceltsKrasa: #008866;
         --akcentsTekstsKrasaIeksIzcelts: rgb(255, 140, 119);
+        --imageSectionBackground: #00382A;
     }
 }
 
@@ -171,6 +173,10 @@ body{
 }
 a.dokSaite{
     color: var(--dokSaiteTekstsKrasa);
+}
+.imageSection{
+    width: 100%;
+    background-color: var(--imageSectionBackground);
 }
 
 /* Sponsori */
