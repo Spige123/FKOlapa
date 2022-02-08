@@ -8,6 +8,9 @@
     src: url('./citi_faili/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
 }
 :root{
+    /* Pamata fonti, ja neizdodas ielādēt īstos */
+    --font: Arial, Helvetica, sans-serif;
+    --navjoslaFont: Arial, Helvetica, sans-serif;
     /* Abos motīvos */
     --font: 'Zen';
     --logoTekstsKrasa: white;
