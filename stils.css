@@ -8,9 +8,6 @@
     src: url('./citi_faili/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
 }
 :root{
-    /* Pamata fonti, ja neizdodas ielādēt īstos */
-    --font: Arial, Helvetica, sans-serif;
-    --navjoslaFont: Arial, Helvetica, sans-serif;
     /* Abos motīvos */
     --font: 'Zen';
     --logoTekstsKrasa: white;
@@ -53,6 +50,9 @@ a, .mailLink{
     color: var(--akcentsTekstsKrasa);
 }
 a, p, h1, h2, h3, li, ol{
+    /* Pamata fonti, ja neizdodas ielādēt īstos */
+    font-family: Arial, Helvetica, sans-serif;
+    
     font-family: var(--font);
 }
 h1{
